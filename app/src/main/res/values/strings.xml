@@ -1,0 +1,784 @@
+<resources>
+    <string name="app_name">FootballPlayAssistant</string>
+    <string name="takePart">Принимайте участие в матчах, созданных другими игроками или создайте свои собственные события</string>
+    <string name="blockrulesstart">Входя в аккаунт или создавая новый, вы соглашаетесь с нашими</string>
+    <string name="rules">&#032;Правилами и условиями&#032;</string>
+    <string name="politic">&#032;Положением конфиденциальности</string>
+    <string name="questionNoAcc">Нет аккаунта?</string>
+    <string name="questionAcc">Есть аккаунт?</string>
+    <string name="signin">Войти</string>
+    <string name="signup">Зарегистрироваться</string>
+    <string name="enterNick">Введите ник</string>
+    <string name="enterName">Введите имя</string>
+    <string name="enterSurname">Введите фамилию</string>
+    <string name="enterEmail">Введите e-mail</string>
+    <string name="enterEmailText">Введите электронную почту для входа</string>
+    <string name="enterPhone">Введите телефон</string>
+    <string name="enterPhoneText">Введите номер телефона для входа</string>
+    <string name="enterPass">Введите пароль</string>
+    <string name="choosenPhone">На указанный номер телефона придет код подтверждения</string>
+    <string name="choosenEmail">На указанный адрес электронной почты придет код подтверждения</string>
+    <string name="sendCode">Отправить код</string>
+    <string name="phoneCode">Код отправлен на номер</string>
+    <string name="emailCode">Код отправлен на почту</string>
+    <string name="repeatCode">Отправить код повторно через %1$d секунд</string>
+    <string name="writeInfo">Заполните информацию</string>
+    <string name="createRepeatPass">Придумайте и подтвердите пароль</string>
+    <string name="createPass">Придумайте пароль</string>
+    <string name="repeatPass">Повторите пароль</string>
+    <string name="enterNewPass">Введите новый пароль</string>
+    <string name="repeatNewPass">Повторите новый пароль</string>
+    <string name="next">Далее</string>
+    <string name="nick">Ник</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Почта</string>
+    <string name="forgotPassword">Забыли пароль?</string>
+    <string name="recoveryPassword">Восстановление \nпароля</string>
+    <string name="instructionRecoveryPassword">На указанный адрес электронной почты придет инструкция по восстановлению пароля</string>
+    <string name="enterInfoYourself">Введите\n информацию о себе</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="sex">Ваш пол</string>
+    <string name="levelPlay">Выберите уровень игры</string>
+    <string name="city">Выберите ваш город</string>
+    <string name="tellYourself">Расскажите о себе\n</string>
+    <string name="position">Ваша предпочитаемая позиция</string>
+    <string name="byPhone">По номеру</string>
+    <string name="byEmail">По почте</string>
+    <string name="nickLength">Ник должен быть длиной не более 10 символов</string>
+    <string name="passLength">Пароль должен быть длиной не менее 8 символов</string>
+    <string name="vk">VK</string>
+    <string name="google">Google</string>
+    <string name="yandex">Яндекс</string>
+    <string name="or">Или</string>
+    <string name="skip">Пропустить</string>
+    <string name="enter">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="enterCode">Введите код\n из смс</string>
+    <string name="enterCodeFromEmail">Введите код\n из письма</string>
+    <string name="step">Шаг %1$d из 2</string>
+    <string name="and">и</string>
+    <string name="save">Сохранить</string>
+    <string name="beginner">Новичок</string>
+    <string name="amateur">Любитель</string>
+    <string name="experienced">Опытный</string>
+    <string name="professional">Профессионал</string>
+    <string name="man">Мужчина</string>
+    <string name="woman">Женщина</string>
+    <string name="doneWithPoint">Готово!</string>
+    <string name="newPassIsRecovery">Новый пароль успешно восстановлен</string>
+    <string name="onSignInScreen">На страницу входа</string>
+    <string name="invalidPassword">Неверный пароль</string>
+    <string name="userHasBeenRegistered">Пользователь с таким номером уже зарегистрирован</string>
+    <string name="nicknameIsOccupied">Данный ник уже занят</string>
+    <string name="emailIsOccupied">Данный адрес электронной почты уже зарегистристирован</string>
+    <string name="dataNotSaved">Данные не сохранены</string>
+    <string name="dataNotSavedDescription">Введенные вами данные не сохранены, необходимо будет ввести их в профиле пользователя</string>
+    <string name="enterInfoAboutYourselt">Ввести информацию о себе</string>
+    <string name="continueBtn">Продолжить</string>
+    <string name="yourCity">Ваш город</string>
+    <string name="playLevel">Уровень игры</string>
+    <string name="prefferedPosition">Предпочитаемая позиция</string>
+
+    <string name="smthGoWrong">Что-то пошло не так...</string>
+
+    <string name="Phone">phone</string>
+    <string name="Email">email</string>
+
+
+    <string name="rulesHeader">Правила и условия</string>
+    <string name="politicHeader">Положения \nконфиденциальности</string>
+    <string name="generalProvisions">1. Общие положения</string>
+    <string name="basicConcepts">2. Основные понятия, используемые в Политике</string>
+    <string name="firstBlock">Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. № 152-ФЗ «О персональных данных» (далее — Закон о персональных данных) и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые ИП Антонов К.А. (далее — Оператор).
+\n1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну.
+\n1.2. Настоящая политика Оператора в отношении обработки персональных данных (далее — Политика) применяется ко всей информации, которую Оператор может получить о посетителях веб-сайта https://sacreds.ru.</string>
+    <string name="secondBlock">2.1. Автоматизированная обработка персональных данных — обработка персональных данных с помощью средств вычислительной техники.
+\n2.2. Блокирование персональных данных — временное прекращение обработки персональных данных (за исключением случаев, если обработка необходима для уточнения персональных данных).
+\n2.3. Веб-сайт — совокупность графических и информационных материалов, а также программ для ЭВМ и баз данных, обеспечивающих их доступность в сети интернет по сетевому адресу https://sacreds.ru.
+\n2.4. Информационная система персональных данных — совокупность содержащихся в базах данных персональных данных и обеспечивающих их обработку информационных технологий и технических средств.
+\n2.5. Обезличивание персональных данных — действия, в результате которых невозможно определить без использования дополнительной информации принадлежность персональных данных конкретному Пользователю или иному субъекту персональных данных.
+\n2.6. Обработка персональных данных — любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.
+\n2.7. Оператор — государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с другими лицами организующие и/или осуществляющие обработку персональных данных, а также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.
+\n2.8. Персональные данные — любая информация, относящаяся прямо или косвенно к определенному или определяемому Пользователю веб-сайта https://sacreds.ru.
+\n2.9. Персональные данные, разрешенные субъектом персональных данных для распространения, — персональные данные, доступ неограниченного круга лиц к которым предоставлен субъектом персональных данных путем дачи согласия на обработку персональных данных, разрешенных субъектом персональных данных для распространения в порядке, предусмотренном Законом о персональных данных (далее — персональные данные, разрешенные для распространения).
+\n2.10. Пользователь — любой посетитель веб-сайта https://sacreds.ru.
+\n2.11. Предоставление персональных данных — действия, направленные на раскрытие персональных данных определенному лицу или определенному кругу лиц.
+\n2.12. Распространение персональных данных — любые действия, направленные на раскрытие персональных данных неопределенному кругу лиц (передача персональных данных) или на ознакомление с персональными данными неограниченного круга лиц, в том числе обнародование персональных данных в средствах массовой информации, размещение в информационно-телекоммуникационных сетях или предоставление доступа к персональным данным каким-либо иным способом.
+\n2.13. Трансграничная передача персональных данных — передача персональных данных на территорию иностранного государства органу власти иностранного государства, иностранному физическому или иностранному юридическому лицу.
+\n2.14. Уничтожение персональных данных — любые действия, в результате которых персональные данные уничтожаются безвозвратно с невозможностью дальнейшего восстановления содержания персональных данных в информационной системе персональных данных и/или уничтожаются материальные носители персональных данных.
+</string>
+
+    <string name="money">Ваш баланс</string>
+    <string name="mygames">Мои игры</string>
+    <string name="news">Новости</string>
+    <string name="all">Все</string>
+    <string name="showmore">Показать ещё</string>
+    <string name="home">Главная</string>
+    <string name="search">Поиск</string>
+    <string name="calendar">Календарь</string>
+    <string name="profile">Профиль</string>
+    <string name="youhost">Вы являетесь хостом игры:</string>
+    <string name="noGames">На данные момент у вас нет игр.\nСоздайте свою игру или начните\n участвовать в играх </string>
+    <string name="noNews">На данный момент новости отсутствуют.\n Подпишитесь на игроков, чтобы ваша\n новостная лента пополнялась</string>
+    <string name="currency">₽</string>
+    <string name="hello">Привет,</string>
+
+    <string name="addGame">Создать игру</string>
+    <string name="closeGame">Закрытая игра</string>
+    <string name="closeGameToast">Игра не будет видна другим пользователям. Вы сможете пригласить друзей по ссылке или приглашению в приложении . В настройках игры.  Игру можно сделать открытой в разделе "управлять игрой".</string>
+    <string name="iWill">Я буду играть</string>
+    <string name="iWillToast">Будете Вы играть с другими игроками или следить за матчем со стороны?</string>
+    <string name="field">Футбольное поле</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="details">Детали события</string>
+    <string name="start">Начало</string>
+    <string name="end">Конец</string>
+    <string name="title">Название</string>
+    <string name="otherInfo">Дополнительная информация\n</string>
+    <string name="countPlayers">Количество игроков</string>
+    <string name="minCountPlayers">Мин. количество игроков</string>
+    <string name="sexPlayers">Пол участников</string>
+    <string name="men">Мужчины</string>
+    <string name="women">Женщины</string>
+    <string name="mw">М/Ж</string>
+    <string name="inventory">Инвентарь</string>
+    <string name="manish">Манишки</string>
+    <string name="ball">Мяч</string>
+    <string name="noInventory">Нет инвентаря</string>
+    <string name="costEntry">Стоимость входа</string>
+    <string name="cost">Стоимость</string>
+    <string name="commission">Комиссия</string>
+    <string name="agree">Вы подтверждаете, что зарезервировали поле на данную дату и время</string>
+    <string name="addEvent">Создать событие</string>
+    <string name="cantCancel">Вы не сможете вносить изменения в игру, если до её начала осталось меньше 12 часов.</string>
+    <string name="tooltipClose">Игра не будет опубликована в календаре событий. Игроки смогут присоединиться по Вашему приглашению. Вы можете сделать игру открытой в настройках игры</string>
+    <string name="tooltipPlay">Будете Вы играть с другими игроками или следить за матчем со стороны?</string>
+
+
+    <string name="inviteFriend">Пригласить друзей</string>
+    <string name="invite">Пригласить</string>
+    <string name="cancel">Отмена</string>
+    <string name="noFriends">Друзей не найдено</string>
+    <string name="youCanCopy">Вы можете скопировать ссылку, чтобы \nотправить приглашение</string>
+    <string name="refCopied">Ссылка скопирована в буфер обмена</string>
+
+    <string name="friends">Друзья</string>
+    <string name="places">Площадки</string>
+    <string name="noNewsTitle">Новостей нет</string>
+    <string name="noNewsFriens">В данный момент ваши друзья не планируют футбольные матчи, вы можете посмотреть ближайшие матчи у площадок
+или создать свою игру</string>
+    <string name="noNewsPlaces">В данный момент ваши избранные площадки не планируют футбольные матчи, вы можете добавить площадки в избранное или создать свою игру</string>
+    <string name="addToFavourite">Добавить в избранное</string>
+
+    <string name="payment">Оплата</string>
+    <string name="balance">Баланс кошелька:</string>
+    <string name="replenish">Пополнить</string>
+    <string name="detailsOperation">Детали операции</string>
+    <string name="partInMatch">Участие в матче</string>
+    <string name="total">Итого:</string>
+    <string name="pay">Оплатить</string>
+    <string name="cancelWithoutLoss">Отменить участие без потери средств можно не позднее, чем за 24 часа до начала матча.</string>
+    <string name="geolocationOff">Геолокация отключена</string>
+    <string name="geolocationText">Выдача новостей отсутствует по причине отключенной геолокации, для появления новостей по ближайшему к вам расположению включите геолокацию в профиле</string>
+    <string name="geolocationOn">Включить геолокацию</string>
+    <string name="paymentFail">Не хватает денежных средств для оплаты матча. \nПополните баланс и повторите оплату снова</string>
+
+    <string name="match">Матч</string>
+    <string name="type">Тип</string>
+    <string name="sexMatch">Пол</string>
+    <string name="players">Участники:</string>
+    <string name="playersWithout">Участники</string>
+    <string name="comments">Сообщения</string>
+    <string name="participate">Участвовать</string>
+    <string name="sendMessage">Оставить сообщение</string>
+    <string name="cancelParticipate">Отменить участие</string>
+    <string name="autoReturn">До начала события более 12 часов, при отмене участия средства автоматически вернутся на Ваш баланс</string>
+    <string name="notAutoReturn">До начала события меньше 12 часов, поэтому при отмене участия, средства не вернутся на Ваш баланс</string>
+    <string name="eventEnd">Событие завершено</string>
+    <string name="rateGame">Оценить игру</string>
+    <string name="markParticipants">Отметить участников</string>
+    <string name="noMessages">По данному матчу отсутствуют \nсообщения. Будьте первым, пообщайтесь \nсо своими членами команды</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="copyInvitation">Скопировать приглашение</string>
+    <string name="host">Хост</string>
+    <string name="deposit">Депозит</string>
+    <string name="signInForTakePart">Войдите, чтобы участвовать в матче.</string>
+    <string name="gameManagement">Управление игрой</string>
+    <string name="youCantEditGame">До начала события меньше 12 часов, поэтому вы не можете редактировать игру</string>
+    <string name="youWasDeleted">Вы не можете принять участие в матче, поскольку хост удалил вас из игры.</string>
+    <string name="cancelParticipationQuestion">Вы точно хотите отменить участие в игре?</string>
+    <string name="negativeRate"> Это может негативно повлиять на ваш рейтинг. </string>
+    <string name="cancelParticipation">Отменить участие</string>
+    <string name="matchIsOver">Матч завершен!</string>
+    <string name="andOther">и %1$d других</string>
+    <string name="noOneJoin">Никто\nне присоединился</string>
+    <string name="noOneMoreJoin">Больше никто не\nприсоединился</string>
+    <string name="plus">+%1$d</string>
+    <string name="joinToGameForSeeMsg">Чтобы посмотреть сообщения игроков к этому матчу и оставлять свои сообщения, присоединитесь в игре</string>
+    <string name="matchIsOverBlur">Матч завершен, поэтому вы не можете просматривать информацию о матче.</string>
+
+
+    <string name="matchInfo">Информация о матче</string>
+    <string name="matchPlace">Место проведения матча</string>
+
+    <string name="teamsCanChanged">Во время игры команды могут измениться</string>
+    <string name="join">Присоединиться</string>
+    <string name="noEmpty">Свободных мест нет</string>
+    <string name="lightTeam">Светлая команда</string>
+    <string name="darkTeam">Темная команда</string>
+
+
+    <string name="gameCreated">Игра создана</string>
+    <string name="youGetNotify">Вы получите оповещение, как только игроки подключатся к вашему матчу.</string>
+    <string name="onGamePage">На страницу игры</string>
+    <string name="inviteFriends">Пригласить друзей на матч</string>
+    <string name="copy">Скопировать приглашение</string>
+    <string name="whoPlays">Кто участвует?</string>
+    <string name="youGetNotify2">Вы получите уведомление когда ваши друзья присоединятся к матчу</string>
+    <string name="playYourself">Участвовать самому</string>
+    <string name="callFriends">Позвать друзей</string>
+    <string name="payOK">Оплата прошла успешно</string>
+    <string name="darkdontForget">Не забудьте взять спортивный  инвентарь для матча.\nЖелаем хорошей игры!</string>
+    <string name="returnMain">Вернуться на главную</string>
+    <string name="inviteFriendsAlso">Пригласить еще друзей</string>
+    <string name="done">Готово</string>
+
+    <string name="matchParticipants">Участники матча</string>
+    <string name="managingParticipants">Управление участниками матча</string>
+    <string name="inviteParticipants">Пригласить участников</string>
+    <string name="noPlayers">Игроков не найдено</string>
+    <string name="youCanInvite">На данный момент никто не присоединился к игре. Вы можете пригласить новых участников. </string>
+    <string name="deletePlayerQuestion">Удалить игрока?</string>
+
+
+    <string name="goalkeeper">Вратарь</string>
+    <string name="fullback">Защитник</string>
+    <string name="halfback">Полузащитник</string>
+    <string name="forward">Нападающий</string>
+    <string name="noPosition">Нет предпочитаемой позиции</string>
+
+    <string name="current">Текущие</string>
+    <string name="archive">Архив</string>
+    <string name="results">Подвести итоги</string>
+    <string name="history">История</string>
+    <string name="noGamesYet">У вас еще не было игр</string>
+    <string name="youHaventAnyGames">У вас еще не было игр в которых вы участвовали или создавали</string>
+
+    <string name="positionCard">Позиция</string>
+    <string name="bestPlayer">Лучший игрок</string>
+    <string name="ratingHost">Рейтинг хоста</string>
+    <string name="attendance">Посещаемость</string>
+
+    <plurals name="ratings">
+        <item quantity="one">%1$d оценка</item>
+        <item quantity="two">%1$d оценки</item>
+        <item quantity="few">%1$d оценки</item>
+        <item quantity="many">%1$d оценок</item>
+        <item quantity="other">%1$d оценок</item>
+    </plurals>
+
+    <plurals name="games">
+        <item quantity="zero">%1$d игр</item>
+        <item quantity="one">%1$d игра</item>
+        <item quantity="two">%1$d игры</item>
+        <item quantity="few">%1$d игры</item>
+        <item quantity="many">%1$d игр</item>
+        <item quantity="other">%1$d игр</item>
+    </plurals>
+
+    <string name="changeProfile">Изменить профиль</string>
+    <string name="wallet">Кошелек</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="inviteFriendCard">Пригласить друга</string>
+    <string name="aboutApp">О приложении</string>
+    <string name="safety">Безопасность</string>
+
+
+    <string name="editGame">Редактировать игру</string>
+    <string name="manageParticipants">Управлять участниками</string>
+    <string name="costOfEntry">Стоимость входа</string>
+    <string name="dismissMatch">Распустить матч</string>
+    <string name="makeChanges">Внести изменения</string>
+    <string name="dismissMatchQuestion">Распустить матч?</string>
+    <string name="itCanBeNegative"> Это может негативно повлиять на ваш рейтинг. </string>
+    <string name="matchDismissed">Матч распущен</string>
+    <string name="returnAllMoney">Все средства вернутся к игрокам</string>
+    <string name="goToMain">Перейти на главную</string>
+
+    <string name="myWallet">Мой кошелек</string>
+    <string name="summaWithdrawal">Сумма вывода:</string>
+    <string name="bringOut">Вывести</string>
+    <string name="hold">На удержании</string>
+    <string name="historyOperations">История операций</string>
+    <string name="today">Сегодня</string>
+    <string name="replenishment">Пополнение</string>
+    <string name="replenishBalance">Пополнить баланс</string>
+    <string name="balanceWallet">Баланс:</string>
+
+    <string name="youDidntRate">Вы не оценили игру</string>
+    <string name="youShouldRate">Для вывода средств необходимо оценить игру</string>
+    <string name="goToAchive">Перейти в архив</string>
+    <string name="returnToWallet">Вернуться в кошелек</string>
+
+    <plurals name="events">
+        <item quantity="one">%1$d событие</item>
+        <item quantity="two">%1$d события</item>
+        <item quantity="few">%1$d события</item>
+        <item quantity="many">%1$d событий</item>
+        <item quantity="other">%1$d событий</item>
+    </plurals>
+
+
+    <string name="exitFromAll">После изменения пароля произойдет выход из аккаунта на всех устройствах</string>
+    <string name="currentPassword">Текущий пароль</string>
+    <string name="newPassword">Новый пароль</string>
+    <string name="newPasswordOneMore">Новый пароль ещё раз</string>
+    <string name="enterNewPasswordOneMore">Введите новый пароль ещё раз</string>
+    <string name="changePassword">Изменить пароль</string>
+    <string name="changedPasswordSuccess">Пароль успешно изменен</string>
+    <string name="needAutorization">Необходимо заново пройти авторизацию с использованием нового пароля на всех устройствах</string>
+    <string name="loginAgain">Войти заново</string>
+    <string name="passwordsDifferent">Введенные вами пароли не совпадают</string>
+    <string name="symbolsNumbers">8 символов, латинские буквы и цифры, 1 заглавная буква</string>
+
+
+    <string name="versionApp">Версия приложения</string>
+    <string name="versionOS">Версия операционной системы</string>
+    <string name="domain">Домен</string>
+    <string name="connection">Подключение</string>
+    <string name="region">Регион</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="confidentiality">Конфиденциальность</string>
+    <string name="faq">FAQ</string>
+    <string name="exit">Выйти</string>
+    <string name="deleteAcc">Удалить аккаунт</string>
+    <string name="exitQuestion">Вы действительно хотите выйти?</string>
+    <string name="enterDataAfterExit">После выхода из приложения данные авторизации необходимо будет ввести заново</string>
+    <string name="deleteQuestion">Вы действительно хотите удалить аккаунт?</string>
+    <string name="lostDataAfterDelete">После удаления аккаунта все данные будут утеряны</string>
+    <string name="delete">Удалить</string>
+    <string name="forPlayers">Игрокам</string>
+    <string name="forOrganizers">Организаторам</string>
+
+    <string name="suggestionOrProblem">Предложение или проблема</string>
+    <string name="describeYourProblems">Опишите ваши предложения или проблемы</string>
+    <string name="EmailBigE">E-mail</string>
+    <string name="EmailEnter">Введите E-mail</string>
+    <string name="send">Отправить</string>
+    <string name="sendRequestSuccessfully">Обращение отправлено успешно</string>
+    <string name="youWillBeContacted">После рассмотрения вашего обращения с вами свяжутся</string>
+    <string name="returnToMain">Вернуться на главную страницу</string>
+
+
+    <string name="subscribers">Подписчики</string>
+    <string name="blocked">Заблокированные</string>
+    <string name="noSubscribers">У вас нет подписчиков</string>
+    <string name="noSubscribersDescription">На данный момент у вас отсутствуют пользователи подписанные на вас</string>
+    <string name="noSubscriptions">У вас нет подписок</string>
+    <string name="noSubscriptionsDescription">На данный момент вы ни на кого не подписаны</string>
+    <string name="blockedUsers">Заблокированные пользователи</string>
+    <string name="unlock">Разблокировать</string>
+    <string name="noBlockedUsers">Нет заблокированных пользователей</string>
+    <string name="noBlockedUsersDescription">На данный момент у вас отсутствуют пользователи добавленные в блок</string>
+    <string name="successUnlock">Пользователи успешно разблокированы</string>
+    <string name="goToSubscriptions">На страницу подписок</string>
+    <string name="goToProfile">В профиль</string>
+
+
+
+    <string name="subscribe">Подписаться</string>
+    <string name="unsubscribe">Отписаться</string>
+    <string name="inviteProfile">Пригласить</string>
+    <string name="organizeGames">Организовывайте игры, чтобы получить рейтинг</string>
+    <string name="block">Заблокировать</string>
+    <string name="userBlockedSuccess">Пользователь успешно заблокирован</string>
+    <string name="toMain">На главную</string>
+    <string name="toSubscriptions">В подписки</string>
+    <string name="goodMentor">Хороший наставник</string>
+
+
+    <string name="myAccount">Мой Аккаунт</string>
+    <string name="chooseFromLibrary">Выбрать из библиотеки</string>
+    <string name="takeFoto">Сделать фото</string>
+    <string name="deleteCurrent">Удалить текущее</string>
+    <string name="bigEmail">Email</string>
+    <string name="enterBigEmail">Введите Email</string>
+    <string name="cityProfile">Город</string>
+    <string name="levelPlayProfile">Уровень игры</string>
+    <string name="preferredPosition">Предпочитаемая позиция</string>
+    <string name="infoYourself">Информация о себе</string>
+    <string name="saveChanges">Сохранить изменения</string>
+    <string name="changesSavedSuccess">Изменения в ваших данных \nуспешно сохранены</string>
+    <string name="returnToProfile">Вернуться в профиль</string>
+    <string name="deleteQuestionPhoto">Вы действительно хотите удалить текущее фото?</string>
+    <string name="youWillNotHavePhoto">После удаления у вас не будет \nличной фотографии в профиле</string>
+    <string name="library">Библиотека</string>
+    <string name="recent">Недавние</string>
+    <string name="takePhoto">Сделать фото</string>
+    <string name="takeOneMorePhoto">Сделать еще снимок</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="emailNotConfirm">Адрес электронной почты не подтвержден</string>
+    <string name="confirmEmail">Подтвердить почту</string>
+
+
+    <string name="mapLinkIconDescription">Ссылка на геолокацию</string>
+    <string name="searchIconDescription">Поиск</string>
+    <string name="filterIconDescription">Открыть фильтры</string>
+
+    <string name="filterHeader">Фильтры</string>
+    <string name="filterByFavorites">По избранным площадкам</string>
+    <string name="filterByDistance">Фильтрация по удаленности</string>
+    <string name="awayFromUser">Удаленность от вас (км)</string>
+    <string name="amountOfPlayers">Количество игроков (чел)</string>
+    <string name="typesOfArena">Тип площадки</string>
+    <string-array name="typesOfArenaArray">
+        <item>Открытый</item>
+        <item>Закрытый</item>
+    </string-array>
+    <string name="coveringType">Покрытие</string>
+    <string-array name="coveringTypeArray">
+        <item>Искусственная трава</item>
+        <item>Гибридный газон</item>
+        <item>Натуральная трава</item>
+        <item>Другое покрытие</item>
+    </string-array>
+    <string name="dropFilters">Сбросить</string>
+    <string name="applyFilters">Применить</string>
+
+    <string name="knobIconDescription">Ползунок</string>
+
+    <string name="areaNotFound">Поля не найдены</string>
+
+    <string name="tryChangeFilters">По заданным фильтрам и запросу не было найдено полей, попробуйте изменить параметры поиска</string>
+    <string name="addField">Добавить поле</string>
+    <string name="fieldName">Название поля</string>
+    <string name="fieldInfoTitle">Информация о поле</string>
+
+    <string-array name="loadFileErrorArray">
+        <item>Слишком большой размер изображения</item>
+        <item>Неподдерживаемый формат файла</item>
+        <item>Количество изображений превышает допустимый лимит</item>
+    </string-array>
+
+    <string name = "inputCity">Укажите город</string>
+    <string name = "inputAddress">Адрес</string>
+    <string name = "openTime">Открытие</string>
+    <string name = "closingTime">Закрытие</string>
+    <string name = "inputContacts">Контактный телефон</string>
+    <string name = "closeMetro">Ближайшее метро</string>
+    <string name = "inputSite">Сайт</string>
+    <string name = "inputDescription">Описание</string>
+    <string name = "howManyPeopleInGame">Вместимость игроков</string>
+    <string name="personInput">чел.</string>
+    <string name = "loadImageInput">Загрузить изображения</string>
+    <string name= "loadImageDescription">JPEG, PNG. 15 Мбайт. Не более 10 изображений</string>
+    <string name="fieldSize">Размеры поля</string>
+    <string name="lengthInput">Длина (м)</string>
+    <string name="widthInput">Ширина (м)</string>
+    <string name="lightningType">Освещение</string>
+    <string-array name="lightningTypeArray">
+        <item>Искусственное</item>
+        <item>Естественное</item>
+    </string-array>
+    <string name="showering">Душ</string>
+    <string-array name="hasOrNo">
+        <item>Есть</item>
+        <item>Нет</item>
+    </string-array>
+    <string name="changingRoom">Раздевалки</string>
+    <string name="addToFavorites">Добавить в избранное</string>
+    <string name="cleanSearchBar">Очистить строку поиска</string>
+    <string name="typeInSearchQuery">Введите свой запрос</string>
+    <string name="loadPhoto">Загрузить фотографию</string>
+    <string name="radioButtonOn">Выбрано</string>
+    <string name="radioButtonOff">Не выбрано</string>
+    <string name="leadingFieldIcon">Ведущая иконка поля</string>
+    <string name="trailingFieldIcon">Следующая иконка поля</string>
+    <string name="warningIcon">Предупреждение</string>
+    <string name="loadedImage">Загруженная картинка</string>
+    <string name="deletePhoto">Удалить фото</string>
+
+    <string name="fieldInfoScreenHeader">Поле</string>
+    <string name="fieldPhotoImageDescription">Фотография поля</string>
+    <string name="fieldInfoName">Футбольный манеж 38х16 «Спорт Ангар» Теплый стан</string>
+    <string name="convenientFieldPlacementTag">Удобное расположение</string>
+    <string name="fieldServiceTag">Сервис</string>
+    <string name="fieldConditionTag">Состояние поля</string>
+    <string name="chooseFieldButtonText">Выбрать поле</string>
+    <string name="fieldRatingIconDescription">Рейтинг поля</string>
+    <string name="fieldAverageRating">5</string>
+    <string name="feedbackAmount">(8 отзывов)</string>
+    <string name="feedbackSectionTitle">Отзывы</string>
+    <string name="comingEventsSectionTitle">Ближайшие события</string>
+    <string name="basicInfoFieldLocation">Поречная улица, дом 3, к.1 строение 2</string>
+    <string name="basicInfoFieldPhoneNumber">+7 (495) 970– 31–29</string>
+    <string name="basicInfoFieldWorkHours">08:00 – 24:00</string>
+    <string name="showMoreFeedbackButton">Показать еще</string>
+    <string name="expandIconDescription">Раскрыть список отзывов</string>
+    <string name="noImageIconDescription">Нет изображения</string>
+    <string name="fieldHasNoFeedback">Отзывы по матчам данной площадки отсутствуют</string>
+    <string name="feedbackAvatarImageDescription">Фотография профиля автора отзыва</string>
+    <string name="filledRatingStarIconDescription">Звезда рейтинга</string>
+    <string name="blankRatingStarIconDescription">Пустая звезда рейтинга</string>
+    <string name="eventCardCalendarIconDescription">Дата события</string>
+    <string name="eventCardTimeIconDescription">Время события</string>
+    <string name="pricePerPerson">₽/чел</string>
+    <string name="eventParticipantAvatarImageDescription">Участник события</string>
+    <string name="anotherOneParticipantListed">и еще один</string>
+    <string name="additionalInfoButtonText">Дополнительная информация</string>
+    <string name="additionalInfoIconDescription">Открыть дополнительную информацию</string>
+    <string name="tagDotIconDescription">Тег поля</string>
+    <string name="infoCardIconDescription">Информация о поле</string>
+    <string name="showAllUpcomingEventsClickableText">Все</string>
+    <string name="additionalInfoScreenTitle">Информация о поле</string>
+    <string name="fieldNameTitle">Футбольный манеж 38х16 «Спорт Ангар» Теплый стан</string>
+    <string name="fieldInfoDescription">Крутое поле на базе Крылатское. Удобное расположение и транспортная развязка для удобства. Есть аренда инвентаря для всех видов спорта. Крутое поле на базе Крылатское. Удобное расположение и транспортная развязка для удобства. Есть аренда инвентаря для всех видов спорта.</string>
+    <string name="fieldSizeInfo">Размеры поля</string>
+    <string name="fieldTypeInfo">Площадка</string>
+    <string name="fieldCoveringInfo">Покрытие</string>
+    <string name="fieldShoweringInfo">Душ</string>
+    <string name="fieldLightInfo">Освещение</string>
+    <string name="fieldChangingRoomInfo">Раздевалки</string>
+    <string name="fieldTribuneInfo">Трибуны</string>
+    <string name="gamePlayerAmountInfo">Кол-во игроков</string>
+    <string name="fieldInfoIconDescription">Информация о поле</string>
+    <string name="comingEventsScreenTitle">События площадки</string>
+    <string name="fieldSizeValue">45х30</string>
+    <string name="fieldTypeValue">Открытая</string>
+    <string name="fieldCoveringValue">Искусственная трава</string>
+    <string name="fieldShoweringValue">Да</string>
+    <string name="fieldLightValue">Искусственное</string>
+    <string name="fieldChangingRoomValue">Закрытые</string>
+    <string name="fieldTribuneValue">40 мест</string>
+    <string name="gamePlayerAmountValue">До 20</string>
+
+    <string name="requestSentTitle">Заявка отправлена</string>
+    <string name="requestSentDescription">После прохождения модерации вашей заявки, вам придет уведомление о результате рассмотрения</string>
+    <string name="returnToMainPage">Вернуться на главную</string>
+    <string name="closeImagePreview">Закрыть превью изображения</string>
+    <string name="showNextImage">Показать следующее изображение</string>
+    <string name="showPreviousImage">Показать предыдущее изображение</string>
+    <string name="geolocationIsTurnedOff">Геолокация отключена</string>
+    <string name="geolocationIsTurnedOffDescription">Выдача ближайших к вам полей будет недоступна по причине отключенной геолокации, для продолжения поиска полей включите геолокацию в профиле</string>
+    <string name="turnOnGeolocation">Включить геолокацию</string>
+
+
+    <string name="notificationsHeader">Уведомления</string>
+    <string name="newNotifications">Новые</string>
+    <string name="seenNotifications">Просмотренные</string>
+    <string name="noNotificationsTitle">Уведомлений нет</string>
+    <string name="noNotificationsDescription">На данный момент у вас нет\nуведомлений</string>
+    <string name="hostTitle">Хост</string>
+    <string name="hasInvitedYouNotification">Приглашает вас на матч</string>
+    <string name="sentYouNewMessageNotification">Прислал новое сообщение в игре</string>
+    <string name="hostChangedGameNotification">Внес изменения в игру</string>
+    <string name="participateInMatchAction">Участвовать в матче</string>
+    <string name="goToMessageAction">Перейти к сообщению</string>
+    <string name="seeChangesAction">Посмотреть изменения</string>
+    <string name="fieldCreationSuccessNotification">Ваше поле создано</string>
+    <string name="fieldWasRejectedNotification">Ваше поле отклонено</string>
+    <string name="rejectionReason">"Причина: "</string>
+    <string name="goToFieldScreenAction">Перейти на страницу поля</string>
+    <string name="createFieldAgainAction">Создать поле заново</string>
+    <string name="playersHaventJoinedMatch">Матч в котором вы были хостом, распущен. Игроки не присоединились к вашему событию.</string>
+    <string name="hostRemovedYouNotification">Хост удалил вас из игры</string>
+    <string name="goToGameScreenAction">Перейти на страницу игры</string>
+    <string name="matchWasDisbandedNotification">Распустил матч</string>
+    <string name="hostMatchFinishedNotification">Матч в котором вы были хостом завершен</string>
+    <string name="participantMatchFinishedNotification">Матч в котором вы принимали участие завершен</string>
+    <string name="markParticipantsAction">Подведите итоги, отметьте участников</string>
+    <string name="evaluateEventAction">Оцените как прошло ваше событие</string>
+    <string name="subscribedToYourUpdatesNotification">Подписался на ваши\nобновления</string>
+    <string name="addUserToFriendsDescription">Добавить пользователя в друзья</string>
+    <string name="eventButtonIconDescription">Перейти на страницу</string>
+    <string name="deleteNotification">Удалить уведомление</string>
+    <string name="userAvatarInNotificationDescription">Аватар пользователя в уведомлении</string>
+    <string name="markParticipantsDateHeader">Участники %1$s</string>
+    <string name="markAllParticipantsDescription">Отметить всех участников</string>
+    <string name="markEveryoneCheckbox">Отметить всех</string>
+    <string name="finishMarkingButtonText">Отметить</string>
+    <string name="cancelMarkingButtonText">Отмена</string>
+    <string name="markPlayerAvatar">Аватар игрока</string>
+    <string name="evaluateEventHeader">Оцените событие</string>
+    <string name="evaluateEventDescription">Ваш отзыв поможет сервису улучшить качество услуг, а другим игрокам получить позитивные эмоции от событий</string>
+    <string name="rateHostTitle">Оцените хоста</string>
+    <string name="commentLabelField">Комментарий</string>
+    <string name="sendFeedbackButtonText">Отправить отзыв</string>
+    <string name="skipButtonText">Пропустить</string>
+    <string name="bestPlayerAvatarDescription">Аватар лучшего игрока</string>
+    <string name="bestPlayerTitle">Лучший игрок</string>
+    <string name="chooseBestPlayer">Выбрать лучшего игрока</string>
+    <string name="goodRating">Хорошо</string>
+    <string name="terribleRating">Ужасно</string>
+    <string name="BestPlayerScreenHeader">Лучший игрок</string>
+    <string name="confirmButtonText">Подтвердить</string>
+    <string name="excellentRating">Отлично</string>
+    <string name="okayRating">Удовлетворительно</string>
+    <string name="badRating">Плохо</string>
+    <string name="evaluateField">Оцените поле</string>
+    <string name="leaveCommentAboutField">Оставьте комментарий о поле</string>
+    <string name="extendedTextFieldIconDescription">Два штриха для текстового поля</string>
+    <string-array name="terribleHostTags">
+        <item>Сильное опоздание</item>
+        <item>Грубый</item>
+        <item>Отсутствие инвентаря</item>
+        <item>Недействительная информация</item>
+        <item>Внезапные изменения</item>
+    </string-array>
+    <string-array name="badHostTags">
+    <item>Опоздание</item>
+    <item>Невежливый</item>
+    <item>Плохой инвентарь</item>
+    <item>Недостаточная информация</item>
+    <item>Внезапные изменения</item>
+    </string-array>
+    <string-array name="okayHostTags">
+        <item>Задержка в игре</item>
+        <item>Изменения в игре</item>
+        <item>Некачественный инвентарь</item>
+        <item>Неполная информация</item>
+        <item>Долгие ответы</item>
+</string-array>
+    <string-array name="goodHostTags">
+        <item>Без задержек</item>
+        <item>Вежливый</item>
+        <item>Помощь игрокам</item>
+        <item>Хороший инвентарь</item>
+        <item>Оперативные ответы</item>
+    </string-array>
+    <string-array name="excellentHostTags">
+        <item>Без задержек</item>
+        <item>Превзошел ожидания</item>
+        <item>Безупречная организация</item>
+        <item>Отличный инвентарь</item>
+        <item>Быстрые ответы</item>
+    </string-array>
+    <string-array name="terribleFieldTags">
+        <item>Небезопасное покрытие</item>
+        <item>Отсутствие разметки</item>
+        <item>Нет инфраструктуры</item>
+        <item>Поврежденные ворота</item>
+        <item>Неактуальная информация</item>
+    </string-array>
+    <string-array name="badFieldTags">
+        <item>Повреждения поля</item>
+        <item>Частичные загрязнения</item>
+        <item>Плохая разметка</item>
+        <item>Поврежденные ворота</item>
+        <item>Недостаточная информация</item>
+    </string-array>
+    <string-array name="okayFieldTags">
+        <item>Базовое покрытие</item>
+        <item>Приемлемая чистота</item>
+        <item>Базовая инфраструктура</item>
+        <item>Некачественная разметка</item>
+        <item>Соответствующая информация</item>
+    </string-array>
+    <string-array name="goodFieldTags">
+        <item>Качественное покрытие</item>
+        <item>Четкая разметка</item>
+        <item>Вежливый персонал</item>
+        <item>Чистое и ухоженное</item>
+        <item>Хорошая инфраструктура</item>
+    </string-array>
+    <string-array name="excellentFieldTags">
+        <item>Высококачественное покрытие</item>
+        <item>Превосходное состояние поля</item>
+        <item>Идеальная разметка</item>
+        <item>Отличный персонал</item>
+        <item>Полная инфраструктура</item>
+    </string-array>
+    <string name="loginToCreateGame">Войдите, чтобы создать игру.</string>
+    <string name="calendarFilterNotFoundDescription">По заданным фильтрам не было найдено игр, попробуйте изменить параметры поиска или создать собственное событие</string>
+    <string name="noFiltersCalendarNotFoundDescription">По выбранной дате не было найдено\nигр или площадок, вы можете создать собственное событие</string>
+    <string name="calendarGameNotFoundTitle">Не найдено игр</string>
+    <string name="createGameButtonText">Создать игру</string>
+    <string name="addGameToCalendarIconDescription">Добавить событие в календаре</string>
+    <string name="calendarHeaderText">Календарь</string>
+    <string name="filterEventsCalendarIconDescription">Фильтр событий в календаре</string>
+    <string name="leaveMessageHeader">Оставить сообщение</string>
+    <string name="yourMessagePlaceholderText">Ваше сообщение</string>
+    <string name="sendButtonText">Отправить</string>
+
+
+    <!--FAQ-->
+    <string-array name="questionsForPlayer">
+        <item>Где найти игры?</item>
+        <item>Как записаться на игру?</item>
+        <item>Как отменить свое участие в игре?</item>
+        <item>Что делать если игра была отменена?</item>
+        <item>Пришёл на игру, но поле не забронировано и нет организатора?</item>
+        <item>Когда приезжать на игру?</item>
+        <item>Что такое “Лучший игрок матча”?</item>
+        <item>Не найдено игр при поиске, что делать?</item>
+        <item>Можно ли изменить команду после регистрации на игру?</item>
+        <item>Как я могу оценить игру?</item>
+        <item>Для чего нужно деление на команды заранее?</item>
+    </string-array>
+
+    <string-array name="questionsForOrganizer">
+        <item>Кто может создать игру?</item>
+        <item>Как добавить новое поле?</item>
+        <item>Что делать если не набралось достаточно игроков?</item>
+        <item>Какую цену выставить за игру?</item>
+        <item>Как вывести средства с баланса?</item>
+        <item>Можно ли удалить игрока из игры?</item>
+        <item>Как редактировать информацию о игре?</item>
+        <item>Что такое закрытая игра?</item>
+        <item>Обязательно ли нужно приносить свой инвентарь?</item>
+    </string-array>
+
+    <string-array name="answersForPlayers">
+        <item><![CDATA[ 1. В разделе <font color="black"><u>Календарь</u></font> Вы можете найти игры по дате и времени
+<br>2. В разделе <font color="black"><u>Поиск</u></font> Вы можете найти интересующее Вас поле и посмотреть предстоящие игры на нём.
+<br>3. Посмотреть игры, в которых Вы участвуете, можно в разделе <font color="black"><u>Главная</u></font> → Мои Игры или перейдя в <font color="black"><u>Профиль</u></font> → <font color="black"><u>Мои Игры</u></font> → <font color="black"><u>Текущие</u></font>
+]]></item>
+        <item><![CDATA[ 1. Перейдите на страницу игры, внизу экрана у Вас появится кнопка <font color="black"><u>Участвовать</u></font>. (Убедитесь, что в игре есть свободные места в разделе <font color="black"><u>Участники</u></font>)
+<br>2. Если Вы хотите пригласить друзей на игру нажмите кнопку <font color="black"><u>Позвать друзей</u></font>, если Вы будете играть один, нажмите <font color="black"><u>Участвовать самому</u></font>
+<br>3. Выберите команду за которую Вы хотите играть нажав кнопку “Присоединиться” внизу экрана. Если в Вашей предпочитаемой команде нет свободных мест, не переживайте, во время игры команды могут поменяться. Вы можете написать об этой в разделе <font color="black"><b>Сообщения</b></font> к игре.
+<br>4. Оплатите необходимую сумму участия с Вашего баланса, если не хватает средств на балансе, пополните его
+<br>5. Вы получите уведомление о том, что оплата прошла успешно и Вы автоматически присоединитесь к игре и увидите Ваш профиль в числе участников
+]]></item>
+        <item><![CDATA[1. Перейдите в раздел игры, где Вы хотели бы отменить Ваше участие
+<br>2. Внизу экрана будет кнопка <font color="black"><u>Отменить участие</u></font> с информацией о сумме, которую вы оплатили (Резерв)
+<br>Организаторы игр оплачивают аренду полей до начала игры, поэтому им важно планировать игру заранее. В связи с этим, если до игры остается менее 24 часов, при отмене участия, оплаченная сумма не возвращается на баланс.
+        ]]></item>
+        <item><![CDATA[Организаторы имеют право распустить игру в случае, если не набралось достаточное количество игроков, мы рекомендуем делать это заранее чтобы игроки могли перестроить свои планы. В данном случае, оплаченная сумма вернется на Ваш баланс и Вы сможете её использовать для оплаты будущих игр.]]> </item>
+        <item><![CDATA[Наше приложение выступает гарантом Вашей оплаты за игру, поэтому мы очень серьезно относимся к таким случаям. Средства удерживаются на балансе платформы, поэтому если у Вас произошёл такой инцидент, как можно скорее напишите Нам в разделе “<font color="black"><b>Обратная связь</b></font>” и мы зачислим Вам средства обратно на баланс. В Вашем обращении пожалуйста укажите как можно больше информации включая дату, время, место проведение, имя организатора… Если организатор опубликовал игру, но сам не явился на неё, то мы сразу ограничиваем ему доступ к нашему приложению.]]> </item>
+        <item><![CDATA[Мы рекомендуем приезжать как минимум за 10 минут до начала игры, чтобы игроки могли познакомится друг с другом и поделиться на команды. Обычно, в описании к игре организаторы указывают время и место встречи игроков. Пожалуйста внимательно планируйте свой маршрут до поля, в особенности если Вы будете играть на нём впервые, чтобы не вызывать задержки в игре.]]></item>
+        <item><![CDATA[1. Награда Лучшего игрока матча дает возможность каждому выбрать лучшего игрока с кем они играли.
+<br>2. В конце каждой игры в разделе “Оценить игру” находится раздел “Выбрать лучшего игрока”, где Вы можете выбрать одного игрока, кого считаете лучшим во время игры. Каждая номинация будет отображаться у игрока в профиле.]]></item>
+        <item><![CDATA[В данном случае причин может быть несколько:
+<br>1. По вашим запросам нет подходящих игр, попробуйте изменить фильтры или будьте первыми и <font color="black"><u>Создайте игру</u></font> .
+<br>2. DRAFT отображает игры относительно Вашей геопозиции. Если Ваша геопозиция отключена, то игры отображаются исходя от Вашего города указанного в “Профиле”. Чтобы настроить Вашу геопозицию или изменить город перейдите в <font color="black"><u>Профиль</u></font> → <font color="black"><u>Аккаунт</u></font> → <font color="black"><b>Город</b></font>]]></item>
+        <item><![CDATA[В приложении Вы не сможете поменять команду, но во время игры команды могут поменяться. Вы можете написать о Вашем желании сменить команду в разделе <font color="black"><b>Сообщения</b></font> к игре.]]></item>
+        <item><![CDATA[Каждая Ваша оценка помогает улучшить качество нашего сервиса и дает обратную связь организатором об их играх. В разделе <font color="black"><b>оценить игру</b></font> Вы можете выбрать лучшего игрока, оценить организатора и поле на котором играли с возможностью оставить письменный отзыв. Оценить игру можно несколькими способами:
+<br>1. Экран с оценкой события автоматически появляется при входе в приложение после окончания игры
+<br>2. В разделе <font color="black"><b>Уведомления</b></font> Вы получите оповещение о оценке игры
+<br>3. В разделе <font color="black"><u>Профиль</u></font> → <font color="black"><u>Мои Игры</u></font> → <font color="black"><u>Архив</u></font>]]></item>
+        <item><![CDATA[В приложении Вы не сможете поменять команду, но во время игры команды могут поменяться. Вы можете написать о Вашем желании сменить команду в разделе <font color="black"><b>Сообщения</b></font> к игре. ]]></item>
+    </string-array>
+
+    <string-array name="answersForOrganizer">
+        <item><![CDATA[Быть организатором игры может быть любой зарегистрированный пользователь приложения. Для этого нужно самому забронировать поле и заполнить всю необходимую информацию при <font color="black"><u>Создании игры</u></font>.  Для детального ознакомления с правилами и условиями перейдите в раздел <font color="black"><u>Пользовательское соглашение</u></font>]]></item>
+        <item><![CDATA[При создании игры, Вам нужно выбрать на каком поле она будет проходить. Если не нашли нужного поля, Вы можете добавить поле самостоятельно нажав <font color="black"><u>Добавить поле</u></font> при поиске. После отправления заявки на добавление, оно в кратчайшие сроки будет добавлена на платформу и Вы сможете создавать на нём игры.  ]]></item>
+        <item><![CDATA[В таком случае, Вы можете отменить игру и средства автоматически вернутся игрокам, но в будущем это может негативно повлиять на Ваш рейтинг. Если не хватает игроков, то мы рекомендуем сообщить об этом другим игрокам в разделе <font color="black"><b>Сообщения</b></font> к игре и попросить позвать своих друзей и знакомых. Дополнительно, пригласите своих друзей и подпишитесь на других игроков.]]></item>
+        <item><![CDATA[Мы понимаем, что на организацию игры Вы тратите своё время и ресурсы, поэтому каждый организатор может выставлять свою стоимость за участие в игре. Мы рекомендуем выставлять минимальную цену, чтобы покрыть Ваши расходы, исходя из стоимости аренды поля деленное на количество игроков, учитывая 10% комиссию. Чтобы увеличить шансы того, что игра состоится Вы можете выставить сумму немного выше, на случай если не будет хватать нескольких игроков. ]]></item>
+        <item><![CDATA[Платформа выступает гарантом того, что игра для участников состоится, поэтому в избежании мошеннических схем, мы удерживаем средства полученные с игры в течении x часов. Сразу после этого Вы можете вывести Ваши средства с баланса.
+<br>Чтобы вывести Ваши средства перейдите в раздел <font color="black"><u>Кошелёк</u></font> и нажмите <font color="black"><b>Вывести</b></font> в блоке <font color="black"><b>Сумма вывода</b></font>. Если Ваши средства находятся на удержании, то нужно дождаться пока пройдет х часов с момента завершения игры, а также отметить игроков, которые были на игре.
+<br>Вы можете отметить игроков следующими способами:
+<br>1. Нажав <font color="black"><b>На удержании</b></font> в разделе <font color="black"><u>Кошелёк</u></font>
+<br>2. Экран автоматически появляется при входе в приложение после окончания игры
+<br>3. В разделе <font color="black"><u>Уведомления</u></font> Вы получите оповещение о отметке играков
+<br>4. В разделе <font color="black"><u>Профиль</u></font> → <font color="black"><u>Мои Игры</u></font> → <font color="black"><u>Архив</u></font>
+<br><i>*Платформа работает со сторонней платёжной системой, которая может ,брать комиссию за вывод средств.</i>]]></item>
+        <item><![CDATA[Да, для этого перейдите в раздел Вашей игры и нажмите <font color="black"><b>Управлять игрой</b></font>. Мы не рекомендуем удалять игроков из Вашей игры, потому что это негативно скажется на Ваш рейтинг. ]]></item>
+        <item><![CDATA[Да, для этого перейдите в раздел Вашей игры и нажмите “Управлять игрой”. Обязательные поля при создании игры редактировать нельзя, поэтому будьте внимательны и оповещайте о всех изменениях игроков заранее в <font color="black"><b>Сообщениях</b></font> к игре.]]></item>
+        <item><![CDATA[Закрытая игра нужна в том случае, если организатор хочет выбрать конкретных игроков для игры. Закрытая игра видна в <font color="black"><u>Календаре</u></font> только тем, кто подписан на организатора и на кого он подписан в ответ. Для одобрения участия, организатор должен принять заявку или лично пригласить игрока через приложение/ссылку. ]]></item>
+        <item><![CDATA[Мы рекомендуем всем организаторам приносить свой инвентарь включая мяч и манишки, чтобы игроки получили максимальное удовольствие от игры - это поможет Вам повысить рейтинг. Если у Вас нет инвентаря, то укажите об этом при создании игры и обязательно сообщите игрокам заранее в <font color="black"><b>Сообщениях</b></font> к игре.]]></item>
+    </string-array>
+
+</resources>
